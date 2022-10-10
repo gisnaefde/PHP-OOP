@@ -14,7 +14,6 @@ echo "Country : $Properties->country".PHP_EOL;
 $Properties2 = new Person();
 $Properties2->name = "Adinda";
 $Properties2->address = "Jakarta";
-$Properties2->country = "Indonesia";
 
 echo "Name : $Properties2->name".PHP_EOL;
 echo "address : $Properties2->address".PHP_EOL;
