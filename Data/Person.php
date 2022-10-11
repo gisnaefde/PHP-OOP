@@ -13,4 +13,7 @@ class Person
             echo "Hai $nama, my name is $this->nama".PHP_EOL;
         }
     }
+
+
+    const AUTHOR = "Gisna Fauzian Dermawan"; // constan ini tidak bisa di rubah nilainya di dalam object, jadi akan tersu menempel pada class nya
 }
