@@ -2,8 +2,13 @@
 
 require 'Data/Person.php';
 
-$Person = new Person();
 
-$Person->sayHello("Budi");
+$gisna = new Person();
+$gisna->nama = "Gisna";
+$gisna->sayHello("Budi");
+
+$fauzian = new Person();
+$fauzian->nama = "Fauzian";
+$fauzian->sayHello(null);
 
 ?>
