@@ -11,4 +11,6 @@ $fauzian = new Person();
 $fauzian->nama = "Fauzian";
 $fauzian->sayHello(null);
 
+$fauzian->info();
+
 ?>
