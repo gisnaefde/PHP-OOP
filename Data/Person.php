@@ -27,4 +27,10 @@ class Person
         $this->name = $name;
         $this->address = $address;
     }
+
+
+    function __destruct() //berbeda dengan construction, destruction akan di jalankan ketika object di hapus dari memory,
+    {
+        echo "data $this->name telah di hapus".PHP_EOL;
+    }
 }
