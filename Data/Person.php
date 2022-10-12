@@ -18,6 +18,13 @@ class Person
     const AUTHOR = "Gisna Fauzian Dermawan"; // constan ini tidak bisa di rubah nilainya di dalam object, jadi akan tersu menempel pada class nya
 
     function info(){
-        echo "Author : ".self::AUTHOR.PHP_EOL; // karena const bersiapat tetap dan hanya bisa di akses melalui class ya saja, jadijika ingin memanggil constant dengan cara self::nama_variabel
+        echo "Author : ".self::AUTHOR.PHP_EOL; // karena const bersipat tetap dan hanya bisa di akses melalui class ya saja, jadijika ingin memanggil constant dengan cara self::nama_variabel
+    }
+
+
+    public function __construct(string $name , ?string $address) //constuctor ini merupakan sebuah fungsi yang akan pertama kali di panggil di 
+    {
+        $this->name = $name;
+        $this->address = $address;
     }
 }
