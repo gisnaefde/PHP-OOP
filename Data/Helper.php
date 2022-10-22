@@ -6,4 +6,4 @@ function helpme(){
     echo "Help Me ..!".PHP_EOL;
 }
 
-const APPLIACTION = "Belajar OOP".PHP_EOL;
+const APPLICATION = "Belajar OOP".PHP_EOL;
