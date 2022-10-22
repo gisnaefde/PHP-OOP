@@ -15,10 +15,10 @@ class Person
     }
 
 
-    const AUTHOR = "Gisna Fauzian Dermawan"; // constan ini tidak bisa di rubah nilainya di dalam object, jadi akan tersu menempel pada class nya
+    const AUTHOR = "Gisna Fauzian Dermawan"; // constan ini tidak bisa di rubah nilainya di dalam object, jadi akan terus menempel pada class nya
 
     function info(){
-        echo "Author : ".self::AUTHOR.PHP_EOL; // karena const bersipat tetap dan hanya bisa di akses melalui class ya saja, jadijika ingin memanggil constant dengan cara self::nama_variabel
+        echo "Author : ".self::AUTHOR.PHP_EOL; // karena const bersipat tetap dan hanya bisa di akses melalui class ya saja, jadi jika ingin memanggil constant dengan cara self::nama_variabel
     }
 
 
@@ -31,6 +31,6 @@ class Person
 
     function __destruct() //berbeda dengan construction, destruction akan di jalankan ketika object di hapus dari memory,
     {
-        echo "data $this->name telah di hapus".PHP_EOL;
+        echo "data $this->name asal $this->address telah di hapus".PHP_EOL;
     }
 }
