@@ -9,6 +9,14 @@ namespace Data\one{
     {
         var string $name;
     }
+
+    class Sample {
+
+    }
+    
+    class Dummy {
+        
+    }
 }
 
 namespace Data\two {
